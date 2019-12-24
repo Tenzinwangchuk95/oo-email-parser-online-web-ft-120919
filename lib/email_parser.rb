@@ -6,8 +6,6 @@
 class EmailAddressParser
   attr_accessor :address 
   
-  @@emails = ""
-  
   def initialize(emails)
     @address = ""
     @address << emails
